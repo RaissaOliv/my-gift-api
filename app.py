@@ -97,4 +97,4 @@ def list_sorted_by_value():
     return jsonify(sorted_list), 200
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
